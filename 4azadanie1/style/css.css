@@ -1,0 +1,79 @@
+body {
+	margin:0px !important;
+	padding:0px !important;
+	height:100%;
+	background-color:black;
+}
+
+#baner {
+	font-size:30pt;
+	text-align:center;
+	background-color:white;
+	color:red;
+	margin-top:5px;
+	width:100%;
+}
+
+#left {
+	margin-top:5px;
+	background-color:white;
+	color:red;
+	width:30%;
+	height:750px;
+	float:left
+}
+
+#right {
+		background-color:white;
+		margin-top:5px;
+		color:red;
+		width:100%;
+		height:750px;
+}
+
+#operacja {
+	padding-top:10px;
+}
+#stopka {
+	background-color:white;
+	color:red;
+	width:100%;
+	height:150px;
+	margin-top:5px;
+}
+.button {
+	margin-left:5px!important;
+	margin-top:3px!important;
+	width:120px!important;
+	height:40px!important;
+	background-color:black!important;
+	color:green!important;
+	font-weight:999!important;
+}
+.button:hover{
+	background-color:red;
+	cursor:pointer;
+	
+}
+
+buttontekst{
+	margin-left:5px;
+	margin-top:3px;
+	width:120px;
+	height:40px;
+	background-color:red;
+}
+	
+#buttontekst:hover {
+	
+	cursor:pointer;
+}
+img {
+	margin-left:30px;
+	height:30px;
+    transition: transform 0.3s;
+}
+
+img:hover { 
+    transform: scale(3.25);
+}
